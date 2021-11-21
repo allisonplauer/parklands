@@ -1,0 +1,91 @@
+/**GENERAL**/
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+#wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+/**HEADER**/
+#logo {
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+/**NAVIGATION**/
+nav {
+    font-family: 'Playfair Display', serif;
+    margin: 30px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    font-weight: 600;
+    padding: 15px;
+}
+nav li {
+    display: inline-block;
+}
+nav ul {
+    pad: 0px;
+}
+
+/**FOOTER**/
+footer {
+    font-family: 'Playfair Display', serif;
+    margin: 30px 0 0;
+    padding: 10px;
+    text-align: center;
+}
+
+/**COLORS**/
+body {
+    color: #000033;
+    background-color: #ffffff;
+}
+h1, h2, nav a{
+    color: #ffffff;
+}
+header {
+    color: #ffffff;
+    background-color: #000033;
+}
+nav a:hover,
+nav a.selected {
+    color: #246bce;
+}
+footer {
+    color: #ffffff;
+    background-color: #000033;
+}
+
+/**PAGE:GALLERY**/
+#gallery li {
+    background-color: #ffffff;
+}
+#gallery li p{
+    color: #000033;
+    font-size: .8em;
+    padding: 0 5% 5% 5%;
+}
+
+/**PAGE:INDEX**/
+
+/**PAGE:PARKS**/
+
+/**PAGE:INVOLVE**/
+
