@@ -9,21 +9,22 @@
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
         <!--CSS-->
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <!--HEADER BEGIN-->
         <header>
-            <!--TITLE return to index.html & create id-->
-            <a href="index.html">
-                <h1>Parklands</h1>
-                <h2>Photography & Preservation</h2>
+            <!--TITLE return to index.html-->
+            <a id=logo href="index.html">
+                <h1>PARKLANDS</h1>
+                <h2>PHOTOGRAPHY & PRESERVATION</h2>
             </a>
-            <!--NAV MENU create class & list-style-type:none-->
+            <!--NAV MENU remove bullets-->
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="selected">Home</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="parks.html">Parks</a></li>
                     <li><a href="involve.html">Get Involved</a></li>
@@ -32,22 +33,22 @@
         </header>
         <!--HEADER END-->
 
-        <!--IMAGE create id-->
+        <!--IMAGE-->
         <div>
-            <img src="img/tahoe-01.jpg" alt="Image of D.L. Bliss State Park">
+            <img id="tahoe" src="img/tahoe-01.jpg" alt="Image of D.L. Bliss State Park">
         </div>
-
         <!--ABOUT BEGIN-->
-        <div>
+        <div id="wrapper">
             <p>Parklands Photography & Preservation began with park enthusiasm and aspirations to visit all of our parklands.</p>
             <p>We are park enthusiasts, photographers, and advocates promoting parklands preservation. Many factors are increasing the need for parklands preservation, such as decreased funding, increased traffic, and the changing climate.</p>
             <p>Parklands Photography & Preservation was created to transform park enthusiasts into a movement of park advocates. We’re encouraging the community to appreciate and protect our parklands.</p>
             <p>We believe all are capable of being stewards of our parklands. Regardless of photography or advocacy experience, all are welcome!</p>
         </div>
         <!--ABOUT END-->
+
         <!--FOOTER BEGIN-->
         <footer>
-            <!--CONTACT INFO h4? & list-style-type:none-->
+            <!--CONTACT INFO-->
             <h4>Contact Us</h4>
             <ul>
                 <li><a href="mailto:parklands.pp@gmail.com">parklands.pp@gmail.com</a></li>

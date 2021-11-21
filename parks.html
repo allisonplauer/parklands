@@ -9,109 +9,112 @@
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
         <!--CSS-->
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <!--HEADER BEGIN-->
         <header>
-            <!--TITLE return to index.html & create id-->
-            <a href="index.html">
-                <h1>Parklands</h1>
-                <h2>Photography & Preservation</h2>
+            <!--TITLE return to index.html-->
+            <a id=logo href="index.html">
+                <h1>PARKLANDS</h1>
+                <h2>PHOTOGRAPHY & PRESERVATION</h2>
             </a>
-            <!--NAV MENU & create class-->
+            <!--NAV MENU-->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="#">Parks</a></li>
+                    <li><a href="#" class="selected">Parks</a></li>
                     <li><a href="involve.html">Get Involved</a></li>                  
                 </ul>
             </nav>
         </header>
         <!--HEADER END-->
 
-        <!--PARK MAP IMAGE create id-->
+        <!--PARK MAP IMAGE-->
         <div>
-            <img src="img/npmap-02.jpg" alt="Image of Yosemite National Park Map">
+            <img id="park-map" src="img/npmap-02.jpg" alt="Image of Yosemite National Park Map">
         </div>        
         <!--INTRO AND LINK TO NPMAPS.COM-->
-        <p>Visit <a href="http://npmaps.com" target="_blank">NP Maps</a> to view a collection of free maps published by the National Park Service.</p>
-        <p>We endeavor to preserve all parklands, including shores, rivers, local and national parks.</p>
-        <!--NP LIST create class & list-style-type:none-->
-        <div>
-            <h1>National Parks</h1>
-            <ul>
-                <li>Acadia National Park</li>
-                <li>American Samoa National Park</li>
-                <li>Arches National Park</li>
-                <li>Badlands National Park</li>
-                <li>Big Bend National Park</li>
-                <li>Biscayne National Park</li>
-                <li>Black Canyon of the Gunnison National Park</li>
-                <li>Bryce Canyon National Park</li>
-                <li>Canyonlands National Park</li>
-                <li>Capitol Reef National Park</li>
-                <li>Carlsbad Caverns National Park</li>
-                <li>Channel Islands National Park</li>
-                <li>Congaree National Park</li>
-                <li>Crater Lake National Park</li>
-                <li>Cuyahoga Valley National Park</li>
-                <li>Death Valley National Park</li>
-                <li>Denali National Park</li>
-                <li>Dry Tortugas National Park</li>
-                <li>Everglades National Park</li>
-                <li>Gates of the Arctic National Park</li>
-                <li>Gateway Arch National Park</li>
-                <li>Glacier Bay National Park</li>
-                <li>Glacier National Park</li>
-                <li>Grand Canyon National Park</li>
-                <li>Grand Teton National Park</li>
-                <li>Great Basin National Park</li>
-                <li>Great Sand Dunes National Park</li>
-                <li>Great Smoky Mountains National Park</li>
-                <li>Guadalupe Mountains National Park</li>
-                <li>Haleakalā National Park</li>
-                <li>Hawai’i Volcanoes National Park</li>
-                <li>Hot Springs National Park</li>
-                <li>Indiana Dunes National Park</li>
-                <li>Isle Royale National Park</li>
-                <li>Joshua Tree National Park</li>
-                <li>Katmai National Park</li>
-                <li>Kenai Fjords National Park</li>
-                <li>Kings Canyon National Park</li>
-                <li>Kobuk Valley National Park</li>
-                <li>Lake Clark National Park</li>
-                <li>Lassen Volcanic National Park</li>
-                <li>Mammoth Cave National Park</li>
-                <li>Mesa Verde National Park</li>
-                <li>Mount Rainier National Park</li>
-                <li>New River Gorge National Park</li>
-                <li>North Cascades National Park</li>
-                <li>Olympic National Park</li>
-                <li>Petrified Forest National Park</li>
-                <li>Pinnacles National Park</li>
-                <li>Redwood National Park</li>
-                <li>Rocky Mountain National Park</li>
-                <li>Saguaro National Park</li>
-                <li>Sequoia National Park</li>
-                <li>Shenandoah National Park</li>
-                <li>Theodore Roosevelt National Park</li>
-                <li>Virgin Islands National Park</li>
-                <li>Voyageurs National Park</li>
-                <li>White Sands National Park</li>
-                <li>Wind Cave National Park</li>
-                <li>Wrangell—St. Elias National Park</li>
-                <li>Yellowstone National Park</li>
-                <li>Yosemite National Park</li>
-                <li>Zion National Park</li>
-            </ul>
-        </div>
+        <div id="wrapper">
+            <p>Visit <a href="http://npmaps.com" target="_blank">NP Maps</a> to view a collection of free maps published by the National Park Service.</p>
+            <p>We endeavor to preserve all parklands, including shores, rivers, local and national parks.</p>
+            <!--NP LIST create class-->
+            <div>
+                <h3>National Parks</h3>
+                <ul>
+                    <li>Acadia National Park</li>
+                    <li>American Samoa National Park</li>
+                    <li>Arches National Park</li>
+                    <li>Badlands National Park</li>
+                    <li>Big Bend National Park</li>
+                    <li>Biscayne National Park</li>
+                    <li>Black Canyon of the Gunnison National Park</li>
+                    <li>Bryce Canyon National Park</li>
+                    <li>Canyonlands National Park</li>
+                    <li>Capitol Reef National Park</li>
+                    <li>Carlsbad Caverns National Park</li>
+                    <li>Channel Islands National Park</li>
+                    <li>Congaree National Park</li>
+                    <li>Crater Lake National Park</li>
+                    <li>Cuyahoga Valley National Park</li>
+                    <li>Death Valley National Park</li>
+                    <li>Denali National Park</li>
+                    <li>Dry Tortugas National Park</li>
+                    <li>Everglades National Park</li>
+                    <li>Gates of the Arctic National Park</li>
+                    <li>Gateway Arch National Park</li>
+                    <li>Glacier Bay National Park</li>
+                    <li>Glacier National Park</li>
+                    <li>Grand Canyon National Park</li>
+                    <li>Grand Teton National Park</li>
+                    <li>Great Basin National Park</li>
+                    <li>Great Sand Dunes National Park</li>
+                    <li>Great Smoky Mountains National Park</li>
+                    <li>Guadalupe Mountains National Park</li>
+                    <li>Haleakalā National Park</li>
+                    <li>Hawai’i Volcanoes National Park</li>
+                    <li>Hot Springs National Park</li>
+                    <li>Indiana Dunes National Park</li>
+                    <li>Isle Royale National Park</li>
+                    <li>Joshua Tree National Park</li>
+                    <li>Katmai National Park</li>
+                    <li>Kenai Fjords National Park</li>
+                    <li>Kings Canyon National Park</li>
+                    <li>Kobuk Valley National Park</li>
+                    <li>Lake Clark National Park</li>
+                    <li>Lassen Volcanic National Park</li>
+                    <li>Mammoth Cave National Park</li>
+                    <li>Mesa Verde National Park</li>
+                    <li>Mount Rainier National Park</li>
+                    <li>New River Gorge National Park</li>
+                    <li>North Cascades National Park</li>
+                    <li>Olympic National Park</li>
+                    <li>Petrified Forest National Park</li>
+                    <li>Pinnacles National Park</li>
+                    <li>Redwood National Park</li>
+                    <li>Rocky Mountain National Park</li>
+                    <li>Saguaro National Park</li>
+                    <li>Sequoia National Park</li>
+                    <li>Shenandoah National Park</li>
+                    <li>Theodore Roosevelt National Park</li>
+                    <li>Virgin Islands National Park</li>
+                    <li>Voyageurs National Park</li>
+                    <li>White Sands National Park</li>
+                    <li>Wind Cave National Park</li>
+                    <li>Wrangell—St. Elias National Park</li>
+                    <li>Yellowstone National Park</li>
+                    <li>Yosemite National Park</li>
+                    <li>Zion National Park</li>
+                </ul>
+            </div>
+        </div>    
 
         <!--FOOTER BEGIN-->
         <footer>
-            <!--CONTACT INFO h4? & list-style-type:none-->
+            <!--CONTACT INFO-->
             <h4>Contact Us</h4>
             <ul>
                 <li><a href="mailto:parklands.pp@gmail.com">parklands.pp@gmail.com</a></li>

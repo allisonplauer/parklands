@@ -9,22 +9,23 @@
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
         <!--CSS-->
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <!--HEADER BEGIN-->
         <header>
-            <!--TITLE return to index.html & create id-->
-            <a href="index.html">
-                <h1>Parklands</h1>
-                <h2>Photography & Preservation</h2>
+            <!--TITLE return to index.html-->
+            <a id=logo href="index.html">
+                <h1>PARKLANDS</h1>
+                <h2>PHOTOGRAPHY & PRESERVATION</h2>
             </a>
-            <!--NAV MENU & create class-->
+            <!--NAV MENU-->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#" class="selected">Gallery</a></li>
                     <li><a href="parks.html">Parks</a></li>
                     <li><a href="involve.html">Get Involved</a></li>                   
                 </ul>
@@ -32,9 +33,9 @@
         </header>
         <!--HEADER END-->
         
-        <!--GALLERY IMAGES & CAPTIONS create id for div & ul-->
-        <div>
-            <ul>
+        <!--GALLERY IMAGES & CAPTIONS create id for div-->
+        <div id="wrapper">
+            <ul id="gallery">
                 <li>
                     <img src="img/acadia-01.jpg" alt="Image of Acadia National Park">
                     <p>Acadia National Park</p>
@@ -139,7 +140,7 @@
 
         <!--FOOTER BEGIN-->
         <footer>
-            <!--CONTACT INFO h4? & list-style-type:none-->
+            <!--CONTACT INFO-->
             <h4>Contact Us</h4>
             <ul>
                 <li><a href="mailto:parklands.pp@gmail.com">parklands.pp@gmail.com</a></li>
