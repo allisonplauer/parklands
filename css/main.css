@@ -6,6 +6,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
 }
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 800;
+}
 img {
     max-width: 100%;
 }
@@ -21,15 +26,18 @@ ul {
 
 /**HEADER**/
 #logo {
-    color: #ffffff;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 75%;
 }
 
 /**NAVIGATION**/
 nav {
     font-family: 'Playfair Display', serif;
-    margin: 30px 0 0;
+    margin: 0;
     padding: 10px;
     text-align: center;
 }
@@ -41,7 +49,7 @@ nav li {
     display: inline-block;
 }
 nav ul {
-    pad: 0px;
+    padding: 0px;
 }
 
 /**FOOTER**/
@@ -73,6 +81,14 @@ footer {
     background-color: #000033;
 }
 
+/**PAGE:INDEX**/
+#tahoe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 /**PAGE:GALLERY**/
 #gallery li {
     background-color: #ffffff;
@@ -83,9 +99,39 @@ footer {
     padding: 0 5% 5% 5%;
 }
 
-/**PAGE:INDEX**/
-
 /**PAGE:PARKS**/
+.link {
+    color: #246bce;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+ul li:nth-child(odd) {
+    color: #246bce;
+}
 
 /**PAGE:INVOLVE**/
-
+.input-group {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.input-group input,
+.input-group textarea,
+.input-group select {
+    border: solid 2px #000033;
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+}
+.submit-btn {
+    background-color: #246bce;
+    border: solid 2px #000033;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 15px;
+}
