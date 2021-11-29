@@ -18,8 +18,7 @@
         <header>
             <!--TITLE return to index.html-->
             <a id=logo href="index.html">
-                <h1>PARKLANDS</h1>
-                <h2>PHOTOGRAPHY & PRESERVATION</h2>
+                <img id="logo" src="img/plogo.png" alt="Parklands | Photography & Preservation">
             </a>
             <!--NAV MENU-->
             <nav>
@@ -45,7 +44,27 @@
             <p>Please submit your information below to join.</p>
         </div>
         <!--CONTENT END-->
-        <!--GET INVOLVED FORM-->
+
+        <!--GET INVOLVED FORM add form action below & js action "thank you msg"-->
+        <form>
+            <div class="input-group">
+                <div><label for="first-name">First Name</label></div>
+                <div><input type="text" name="first-name" id="first-name"></div>
+            </div>
+            <div class="input-group">
+                <div><label for="last-name">Last Name</label></div>
+                <div><input type="text" name="last-name" id="last-name"></div>
+            </div>
+            <div class="input-group">
+                <div><label for="email-address">Email Address</label></div>
+                <div><input type="text" name="email-address" id="email-address"></div>
+            </div>
+            <div class="input-group">
+                <div><label for="comments">Comments</label></div>
+                <div><textarea name="comments" id="comments" cols="30" rows="10"></textarea></div>
+            </div>
+            <input class="submit-btn" type="submit" value="Submit">
+        </form>
         
         <!--FOOTER BEGIN-->
         <footer>
