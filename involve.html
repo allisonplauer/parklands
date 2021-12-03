@@ -9,46 +9,71 @@
         <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&family=Open+Sans:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
         <!--CSS-->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
         <!--HEADER BEGIN-->
         <header>
-            <!--TITLE return to index.html & create id-->
-            <a href="index.html">
-                <h1>Parklands</h1>
-                <h2>Photography & Preservation</h2>
+            <!--TITLE return to index.html-->
+            <a id=logo href="index.html">
+                <img id="logo" src="img/parklandslogo.png" alt="Parklands | Photography & Preservation">
             </a>
-            <!--NAV MENU & create class-->
+            <!--NAV MENU-->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="parks.html">Parks</a></li>
-                    <li><a href="#">Get Involved</a></li>                  
+                    <li><a href="#" class="selected">Get Involved</a></li>                  
                 </ul>
             </nav>
         </header>
         <!--HEADER END-->
 
-        <!--IMAGE create id-->
-        <div>
-            <img src="img/yosemite-07.jpg" alt="Image of Yosemite National Park">
+        <!--IMAGE-->
+        <div class="column-1">
+            <img id="involve-image" src="img/yosemite-07.jpg" alt="Image of Yosemite National Park">
         </div>        
         <!--CONTENT BEGIN-->
-        <div>
-            <p>As a movement of park advocates, we can preserve parklands for all to enjoy!</p>
-            <p>We encourage all interested to join us, regardless of photography or advocacy experience. No commitment is necessary to become involved in our mission.</p>
-            <p>Many options are available to learn, advocate, and act. These options include: educational opportunities, community outreach, volunteer events, advocacy actions, group excursions, park stewardship, photography, and other opportunities.</p>
-            <p>Please submit your information below to join.</p>
+        <div id="wrapper">
+            <div class="column-2">
+                <p>As a movement of park advocates, we can preserve parklands for all to enjoy!</p>
+                <p>We encourage all interested to join us, regardless of photography or advocacy experience. No commitment is necessary to become involved in our mission.</p>
+                <p>Many options are available to learn, advocate, and act. These options include: educational opportunities, community outreach, volunteer events, advocacy actions, group excursions, park stewardship, photography, and other opportunities.</p>
+                <p>Please submit your information below to join.</p>
+            </div>
         </div>
         <!--CONTENT END-->
-        <!--GET INVOLVED FORM-->
+
+        <!--GET INVOLVED FORM add form action below & js action "thank you msg"-->
+        <div class="column-2">
+            <form>
+                <div class="input-group">
+                    <div><label for="first-name">First Name</label></div>
+                    <div><input type="text" name="first-name" id="first-name"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="last-name">Last Name</label></div>
+                    <div><input type="text" name="last-name" id="last-name"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="email-address">Email Address</label></div>
+                    <div><input type="text" name="email-address" id="email-address"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="comments">Comments</label></div>
+                    <div><textarea name="comments" id="comments" cols="30" rows="10"></textarea></div>
+                </div>
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
         
         <!--FOOTER BEGIN-->
         <footer>
-            <!--CONTACT INFO h4? & list-style-type:none-->
+            <!--CONTACT INFO-->
             <h4>Contact Us</h4>
             <ul>
                 <li><a href="mailto:parklands.pp@gmail.com">parklands.pp@gmail.com</a></li>
