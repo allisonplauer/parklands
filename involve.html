@@ -18,7 +18,7 @@
         <header>
             <!--TITLE return to index.html-->
             <a id=logo href="index.html">
-                <img id="logo" src="img/plogo.png" alt="Parklands | Photography & Preservation">
+                <img id="logo" src="img/parklandslogo.png" alt="Parklands | Photography & Preservation">
             </a>
             <!--NAV MENU-->
             <nav>
@@ -33,38 +33,42 @@
         <!--HEADER END-->
 
         <!--IMAGE-->
-        <div>
+        <div class="column-1">
             <img id="involve-image" src="img/yosemite-07.jpg" alt="Image of Yosemite National Park">
         </div>        
         <!--CONTENT BEGIN-->
         <div id="wrapper">
-            <p>As a movement of park advocates, we can preserve parklands for all to enjoy!</p>
-            <p>We encourage all interested to join us, regardless of photography or advocacy experience. No commitment is necessary to become involved in our mission.</p>
-            <p>Many options are available to learn, advocate, and act. These options include: educational opportunities, community outreach, volunteer events, advocacy actions, group excursions, park stewardship, photography, and other opportunities.</p>
-            <p>Please submit your information below to join.</p>
+            <div class="column-2">
+                <p>As a movement of park advocates, we can preserve parklands for all to enjoy!</p>
+                <p>We encourage all interested to join us, regardless of photography or advocacy experience. No commitment is necessary to become involved in our mission.</p>
+                <p>Many options are available to learn, advocate, and act. These options include: educational opportunities, community outreach, volunteer events, advocacy actions, group excursions, park stewardship, photography, and other opportunities.</p>
+                <p>Please submit your information below to join.</p>
+            </div>
         </div>
         <!--CONTENT END-->
 
         <!--GET INVOLVED FORM add form action below & js action "thank you msg"-->
-        <form>
-            <div class="input-group">
-                <div><label for="first-name">First Name</label></div>
-                <div><input type="text" name="first-name" id="first-name"></div>
-            </div>
-            <div class="input-group">
-                <div><label for="last-name">Last Name</label></div>
-                <div><input type="text" name="last-name" id="last-name"></div>
-            </div>
-            <div class="input-group">
-                <div><label for="email-address">Email Address</label></div>
-                <div><input type="text" name="email-address" id="email-address"></div>
-            </div>
-            <div class="input-group">
-                <div><label for="comments">Comments</label></div>
-                <div><textarea name="comments" id="comments" cols="30" rows="10"></textarea></div>
-            </div>
-            <input class="submit-btn" type="submit" value="Submit">
-        </form>
+        <div class="column-2">
+            <form>
+                <div class="input-group">
+                    <div><label for="first-name">First Name</label></div>
+                    <div><input type="text" name="first-name" id="first-name"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="last-name">Last Name</label></div>
+                    <div><input type="text" name="last-name" id="last-name"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="email-address">Email Address</label></div>
+                    <div><input type="text" name="email-address" id="email-address"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="comments">Comments</label></div>
+                    <div><textarea name="comments" id="comments" cols="30" rows="10"></textarea></div>
+                </div>
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
         
         <!--FOOTER BEGIN-->
         <footer>
