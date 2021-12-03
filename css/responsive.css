@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+/**PAGE:GALLERY**/
+    #gallery li {
+        float: left;
+        margin: 5%;
+        width: 40%;
+    }
+    footer {
+        clear: both;
+    }
+}
+
+@media screen and (min-width:768px) {
+/**PAGE:INDEX**/
+    #tahoe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2.5%;
+        height: 75%;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+/**PAGE:INVOLVE**/
+    .column-1 {
+        float: left;
+        width: 50%;
+    }
+    .column-2 {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+/**HEADER & LOGO & NAVIGATION**/
+    header {
+        min-height: 100px;
+    }
+    #logo {
+        float: left;
+        padding-left: 10px;
+    }
+    nav {
+        float: right;
+        padding-right: 10px;
+    }
+}
+
+
+
