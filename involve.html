@@ -13,6 +13,8 @@
         <!--CSS-->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <!--JAVASCRIPT-->
+        <script src="main.js"></script>
     </head>
     <body>
         <!--HEADER BEGIN-->
@@ -48,20 +50,17 @@
         </div>
         <!--CONTENT END-->
 
-        <!--GET INVOLVED FORM add form action below & js action "thank you msg"-->
+        <!--GET INVOLVED FORM use JS to validate email-->
         <div class="column-2">
-            <form>
+            <div id="error_message"></div>
+            <form id="involve_form" action="success.html" method="get" onsubmit="return validate();">
                 <div class="input-group">
-                    <div><label for="first-name">First Name</label></div>
-                    <div><input type="text" name="first-name" id="first-name"></div>
+                    <div><label for="full_name">Full Name</label></div>
+                    <div><input type="text" name="full_name" id="full_name"></div>
                 </div>
                 <div class="input-group">
-                    <div><label for="last-name">Last Name</label></div>
-                    <div><input type="text" name="last-name" id="last-name"></div>
-                </div>
-                <div class="input-group">
-                    <div><label for="email-address">Email Address</label></div>
-                    <div><input type="text" name="email-address" id="email-address"></div>
+                    <div><label for="email">Email</label></div>
+                    <div><input type="text" name="email" id="email"></div>
                 </div>
                 <div class="input-group">
                     <div><label for="comments">Comments</label></div>
